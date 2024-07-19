@@ -31,64 +31,71 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Software developer at Microsoft",
+    title: "Desarrollador Junior en Atos/Eviden",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2000,
-    to: 2005,
+      "Experiencia en proyecto real de Madrid Digital utilizando la metodología Scrum enelámbito de desarrollo donde tuve la oportunidad de trabajar con tecnologías como Spring Boot, Angular, InfluxDB, Java y Python."+
+      " Experiencia en el ámbito de accesibilidad del proyecto de Madrid Digital organicé informes e hice uso de tecnologías como SiteImprove y Lighthouse para mejorar la accesibilidad en las páginas web o aplicaciones",
+    from: 2023,
+    to: 2024,
   },
   {
-    title: "Software developer at Google",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2005,
+    title: "Formación Dual en Atos/Eviden",
+    description: `
+    Formación FullStack Developer con las siguientes tecnologías:
+    Spring Core, Spring MVC, Rest y Spring Rest,
+    JPA, Hibernate, Spring Data y Angular.
+    
+    Proyecto interno de empresa en el cual se desarrollaba un cuaderno de ejercicios para futuros alumnos en prácticas.
+    Experiencia tanto en back-end con Spring y front-end con Angular.
+    Uso de control de versiones con Git.
+  `,    from: 2005,
     to: 2007,
   },
-  {
-    title: "Software developer at SpaceX",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2010,
-  },
+  // {
+  //   title: "Software developer at SpaceX",
+  //   description:
+  //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
+  //   from: 2010,
+  // },
 ];
 
 export const projects = [
   {
-    name: "Awesome Website 1",
+    name: "Trabajo de Fin de Grado",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      "Integración de Realidad Virtual en la educación",
     image: "portfolio1.jpeg",
   },
   {
-    name: "Awesome Website 2",
+    name: "Pokedex",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      "Realizada con Angular y Spring",
     image: "portfolio2.jpg",
   },
   {
-    name: "Awesome Website 3",
+    name: "Se vienen cositas",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+      "Goio",
     image: "portfolio3.png",
   },
-  {
-    name: "Awesome Website 4",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-    image: "portfolio4.png",
-  },
-  {
-    name: "Awesome Website 5",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-    image: "portfolio5.jpeg",
-  },
-  {
-    name: "Awesome Website 6",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
-    image: "portfolio6.jpeg",
-  },
+  // {
+  //   name: "Awesome Website 4",
+  //   description:
+  //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+  //   image: "portfolio4.png",
+  // },
+  // {
+  //   name: "Awesome Website 5",
+  //   description:
+  //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+  //   image: "portfolio5.jpeg",
+  // },
+  // {
+  //   name: "Awesome Website 6",
+  //   description:
+  //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem",
+  //   image: "portfolio6.jpeg",
+  // },
 ];
 
 export const posts = [

@@ -11,16 +11,22 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
-              <img src="/ryan-ray-profile2.jpeg" alt="" className="img-fluid" />
+              <img src="/juli.jpg" alt="" className="img-fluid w-75 mx-auto" />
             </div>
             <div className="col-md-8">
-              <h1>Julián Arce</h1>
+              <h1>Julián</h1>
               <h3>Full Stack Developer</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae atque ullam perferendis harum, nisi porro voluptate,
-                iste consequuntur enim reprehenderit architecto consectetur cum?
-                Totam ad molestias natus illum illo officia.
+                Mi objetivo es ampliar mi
+                experiencia en entornos de
+                trabajo reales, colaborando en
+                proyectos desafiantes que
+                permitan el desarrollo de
+                habilidades técnicas y
+                profesionales. Tengo pasión por
+                el aprendizaje constante y
+                adaptación a nuevas
+                tecnologías
               </p>
               <Link href="/hireme" className="btn btn-outline-light">
                 Hire Me
@@ -30,14 +36,14 @@ const Index = () => (
         </div>
       </div>
     </header>
- {/* Porfolio */}
- <section>
+    {/* Porfolio */}
+    <section>
       <div className="row">
         <div className="col-md-12">
           <div className="card card-body bg-dark">
             <div className="row">
               <div className="col-md-12 my-2">
-                <h1 className="text-center text-light">Portfolio</h1>
+                <h1 className="text-center text-light">Proyectos</h1>
               </div>
               {projects.map(({ name, description, image }, index) => (
                 <div className="col-md-4 p-2" key={index}>
@@ -48,7 +54,7 @@ const Index = () => (
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a href="#!">Know More</a>
+                      <a href="#!">Saber más</a>
                     </div>
                   </div>
                 </div>
@@ -102,29 +108,26 @@ const Index = () => (
 
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title, from, to }, index) => (
+              {experiences.map(({ title, from, to, description }, index) => (
                 <li key={index}>
                   <h3>{title}</h3>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint excepturi ea explicabo. Illum suscipit illo, porro
-                    quisquam voluptatem officiis fugiat vel animi aliquam
-                    inventore rem. Quo laudantium temporibus cupiditate. Aut?
+                  <p className="multiline-description">{description}</p>
                   </p>
                 </li>
               ))}
             </ul>
             <Link href="/hireme" className="btn btn-light">
-              Know More
+              Saber más
             </Link>
           </div>
         </div>
       </div>
     </section>
-   
+
   </Layout>
 );
 

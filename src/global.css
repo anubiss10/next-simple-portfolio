@@ -28,3 +28,7 @@ div#__next > div {
   border-top-color: #ffbb00;
   border-left-color: #ffbb00;
 }
+
+.multiline-description {
+  white-space: pre-line; /* Mantiene los saltos de línea y espacios en el texto */
+}
