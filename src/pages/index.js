@@ -14,7 +14,7 @@ const Index = () => (
               <img src="/ryan-ray-profile2.jpeg" alt="" className="img-fluid" />
             </div>
             <div className="col-md-8">
-              <h1>Ryan Ray</h1>
+              <h1>Julián Arce</h1>
               <h3>Full Stack Developer</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
